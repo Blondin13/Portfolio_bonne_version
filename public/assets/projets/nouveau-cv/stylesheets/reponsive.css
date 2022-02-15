@@ -1,0 +1,561 @@
+/*----------------------------------------------------------1580PX---------------------------------------------------------------------*/
+
+@media screen and (max-width: 1580px){
+
+    .section-formation article{
+        width: 100%;
+    }
+}
+
+/*----------------------------------------------------------840PX---------------------------------------------------------------------*/
+
+@media screen and (max-width: 840px){
+    /*----------------ACTIF SUR CHAQUE PAGE----------------------*/
+    header{
+        height: 100%;
+    }
+
+    h1{
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 6rem;
+    }
+    
+    .div-navbar{
+        display: flex;
+        justify-content: end;
+    }
+    
+    .navbar a{
+        font-size: 1.7rem;
+    }
+        
+    .h3-orange{
+        font-size: 4rem;
+    }
+    
+    .p-text{
+        font-size: 2.5rem;
+    }
+    
+     /*----------------PROFIL-------------------------------------*/
+     .article-profil-img-1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .article-text-profil{
+        margin-top: 50px;
+    }
+    
+    /*----------------FORMATIONS---------------------------------*/
+    .article-formations-img-1{
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .p-text-formations{
+        margin-top: 50px;
+        font-size: 2.5rem;
+    }
+    
+    .article-formations-img-2{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    /*----------------COMPETENCES--------------------------------*/
+    .article-competences-img-1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .article-competences-img-2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img-cacher-responsive{
+        display: none;
+    }
+    
+    .img-competences-center{
+        display: inline;  
+    }
+    
+    .p-text-sm{
+        font-size: 2.5rem;
+    }
+    
+    /*----------------EXPERIENCES--------------------------------*/
+    .article-text-experiences{
+        margin-top: 50px;
+    }
+    
+    /*----------------LOISIRS------------------------------------*/
+    
+    
+    /*----------------CONTACT------------------------------------*/
+    .container-contact{
+        margin-top: 10px;
+    }
+}
+
+/*----------------------------------------------------------780PX---------------------------------------------------------------------*/
+
+@media screen and (max-width: 780px){
+    /*----------------ACTIF SUR CHAQUE PAGE----------------------*/
+    header{
+        height: 100%;
+    }
+
+    h1{
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 4.5rem;
+    }
+    
+    .div-navbar{
+        display: flex;
+        justify-content: end;
+    }
+    
+    .navbar a{
+        font-size: 1.2rem;
+    }
+        
+    .h3-orange{
+        font-size: 2.5rem;
+    }
+    
+    .p-text{
+        font-size: 1.6rem;
+    }
+    
+    /*----------------PROFIL-------------------------------------*/
+    
+    
+    /*----------------FORMATIONS---------------------------------*/
+    .article-formations-img-1{
+        margin-top: 50px;
+    }
+    
+    .p-text-formations{
+        margin: 0;
+        font-size: 1.6rem;
+    }
+    
+    /*----------------COMPETENCES--------------------------------*/
+    .article-text-competences{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .p-text-sm{
+        margin: 0;
+        font-size: 1.6rem;
+    }
+    
+    /*----------------EXPERIENCES--------------------------------*/
+    .article-text-experiences{
+        margin-top: 80px;
+    }
+    
+    /*----------------LOISIRS------------------------------------*/
+    .article-text-loisirs{
+        margin-top: 50px;
+    }
+    
+    .p-text-losirs{
+        font-size: 1.6rem;
+    }
+    
+    .article-loisirs-img-2{
+        margin-top: 100px;
+    }
+    
+    /*----------------CONTACT------------------------------------*/
+    .container-contact{
+        margin-top: 120px;
+    }
+    
+    .p-text-contact{
+        font-size: 1.6rem;
+    }
+}
+
+/*----------------------------------------------------------615PX---------------------------------------------------------------------*/
+
+@media screen and (max-width: 615px){
+    /*----------------ACTIF SUR CHAQUE PAGE----------------------*/
+    header{
+        height: 100%;
+    }
+
+    h1{
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 4.5rem;
+    }
+    
+    .div-navbar{
+        display: flex;
+        justify-content: end;
+    }
+    
+    .navbar a{
+        font-size: 1.2rem;
+    }
+        
+    .h3-orange{
+        font-size: 2.5rem;
+    }
+    
+    .p-text{
+        font-size: 1.8rem;
+    }
+    
+    /*----------------PROFIL-------------------------------------*/
+    
+    
+    /*----------------FORMATIONS---------------------------------*/
+    .article-formations-img-1{
+        margin-top: 50px;
+    }
+    
+    .p-text-formations{
+        margin: 0;
+        font-size: 1.8rem;
+    }
+    
+    /*----------------COMPETENCES--------------------------------*/
+    .article-text-competences{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .p-text-sm{
+        margin: 0;
+        font-size: 1.8rem;
+    }
+    
+    /*----------------EXPERIENCES--------------------------------*/
+    .article-text-experiences{
+        margin-top: 80px;
+    }
+    
+    /*----------------LOISIRS------------------------------------*/
+    .article-text-loisirs{
+        margin-top: 50px;
+    }
+    
+    .p-text-losirs{
+        font-size: 1.8rem;
+    }
+    
+    .article-loisirs-img-2{
+        margin-top: 100px;
+    }
+    
+    /*----------------CONTACT------------------------------------*/
+    .container-contact{
+        margin-top: 120px;
+    }
+    
+    .p-text-contact{
+        font-size: 1.8rem;
+    }
+}
+
+/*----------------------------------------------------------595PX---------------------------------------------------------------------*/
+
+@media screen and (max-width: 595px){
+    h1{
+        font-size: 4rem;
+    }
+}
+
+/*----------------------------------------------------------430PX---------------------------------------------------------------------*/
+
+@media screen and (max-width: 430px){
+    /*----------------ACTIF SUR CHAQUE PAGE----------------------*/
+    header{
+        height: 100%;
+    }
+
+    h1{
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 3rem;
+    }
+    
+    .div-navbar{
+        display: flex;
+        justify-content: end;
+    }
+    
+    .navbar a{
+        font-size: 1.1rem;
+    }
+        
+    .h3-orange{
+        font-size: 1.9rem;
+    }
+    
+    .p-text{
+        font-size: 1.6rem;
+    }
+    
+     /*----------------PROFIL-------------------------------------*/
+    
+     .article-profil-img-1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    /*----------------FORMATIONS---------------------------------*/
+    
+    .article-formations-img-1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .p-text-formations{
+        margin: 0;
+        font-size: 1.6rem;
+    }
+    
+    /*----------------COMPETENCES--------------------------------*/
+    
+    .article-competences-img-1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img-cacher-responsive{
+        display: none;
+    }
+    
+    .img-competences-center{
+        display: inline;  
+    }
+    
+    .article-text-competences{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .p-text-sm{
+        margin: 0;
+        font-size: 1.6rem;
+    }
+    
+    /*----------------EXPERIENCES--------------------------------*/
+    
+    .article-text-experiences{
+        margin-top: 50px;
+    }
+    
+    /*----------------LOISIRS------------------------------------*/
+    .p-text-losirs{
+        font-size: 1.6rem;
+    }
+    
+    
+    /*----------------CONTACT------------------------------------*/
+    .container-contact{
+        margin-top: 30px;
+    }
+    
+    .p-text-contact{
+        font-size: 1.6rem;
+    }
+}
+
+/*----------------------------------------------------------395PX---------------------------------------------------------------------*/
+
+@media screen and (max-width: 395px){
+
+    /*----------------ACTIF SUR CHAQUE PAGE----------------------*/
+    header{
+        height: 100%;
+    }
+
+    h1{
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 2.5rem;
+    }
+    
+    .div-navbar{
+        display: flex;
+        justify-content: end;
+    }
+    
+    .navbar a{
+        font-size: 1.1rem;
+    }
+        
+    .h3-orange{
+        font-size: 1.7rem;
+    }
+    
+    .p-text{
+        font-size: 1.3rem;
+    }
+    
+    /*----------------PROFIL-------------------------------------*/
+    .article-profil-img-1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    /*----------------FORMATIONS---------------------------------*/
+    .article-formations-img-1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .p-text-formations{
+        margin: 0;
+        font-size: 1.3rem;
+    }
+    
+    /*----------------COMPETENCES--------------------------------*/
+    .article-competences-img-1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img-cacher-responsive{
+        display: none;
+    }
+    
+    .img-competences-center{
+        display: inline;  
+    }
+    
+    .p-text-sm{
+        margin: 0;
+        font-size: 1.3rem;
+    }
+    
+    /*----------------EXPERIENCES--------------------------------*/
+    .article-text-experiences{
+        margin-top: 50px;
+    }
+    
+    /*----------------LOISIRS------------------------------------*/
+    .p-text-losirs{
+        font-size: 1.3rem;
+    }
+    
+    /*----------------CONTACT------------------------------------*/
+    .container-contact{
+        margin-top: 20px;
+    }
+    
+    .p-text-contact{
+        font-size: 1.3rem;
+    }
+}
+
+    /*----------------------------------------------------------335PX---------------------------------------------------------------------*/
+    
+    @media screen and (max-width: 335px){
+    
+    /*----------------ACTIF SUR CHAQUE PAGE----------------------*/
+    header{
+        height: 100%;
+    }
+    
+    h1{
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 2.5rem;
+    }
+    
+    .div-navbar{
+        display: flex;
+        justify-content: end;
+    }
+    
+    .navbar a{
+        font-size: 1rem;
+    }
+        
+    .h3-orange{
+        font-size: 1.8rem;
+    }
+    
+    .p-text{
+        font-size: 1.4rem;
+    }
+    
+    /*----------------PROFIL-------------------------------------*/
+    
+    
+    
+    /*----------------FORMATIONS---------------------------------*/
+    .article-formations-img-1{
+        margin-top: 50px;
+    }
+    
+    .article-formations-img-1 img{
+        width: 100%;
+    }
+    
+    .p-text-formations{
+        margin: 0;
+        font-size: 1.4rem;
+    }
+    
+    .article-formations-img-2 img{
+        width: 100%;
+    }
+    
+    /*----------------COMPETENCES--------------------------------*/
+    .article-competences-img-1 img{
+        width: 100%;
+    }
+    
+    .article-text-competences{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .p-text-sm{
+        margin: 0;
+        font-size: 1.4rem;
+    }
+    
+    /*----------------EXPERIENCES--------------------------------*/
+    .article-text-experiences{
+        margin-top: 80px;
+    }
+    
+    /*----------------LOISIRS------------------------------------*/
+    .article-text-loisirs{
+        margin-top: 50px;
+    }
+    
+    .p-text-losirs{
+        font-size: 1.4rem;
+    }
+    
+    .article-loisirs-img-2{
+        margin-top: 100px;
+    }
+    
+    /*----------------CONTACT------------------------------------*/
+    .container-contact{
+        margin-top: 0;
+    }
+    
+    .p-text-contact{
+        font-size: 1.4rem;
+    }
+
+}

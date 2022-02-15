@@ -1,0 +1,247 @@
+/*-----------------------------------------------FONT------------------------------------------------*/
+    @font-face {
+        font-family: pix ;
+        src: url(/assets/font/CorporationGames.otf);
+    }
+    
+    @font-face {
+       font-family: rosa;
+       src: url(/assets/font/castameresansregular.ttf);
+    }
+    
+    @font-face {
+        font-family: king;
+        src: url(/assets/font/Kingthings.ttf);
+    }
+
+/*-----------------------------------------------NAV------------------------------------------------*/
+    .nav-logo{
+        margin-right: 40px;
+    }
+    
+    a{
+        font-family: king;
+        font-size: 1.5rem !important;
+        letter-spacing: 2px;
+        color: white;
+    }
+    
+    .navbar li{
+        margin-left: 30px;
+    }
+
+/*-----------------------------------------------INDEX------------------------------------------------*/
+    .main-index{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 150px;
+    }
+    
+    .article-index{
+        margin-top: 90px;
+    }
+    
+    h1{
+        font-family: king;
+        color: rgb(223, 200, 0);
+        text-shadow: 1px 1px 3px black; 
+    }
+    
+    .img-index{
+        width: 700px;
+        height: 500px;
+    }
+
+/*----------------------------------------------PROJETS------------------------------------------------*/
+    .main-projets{
+        margin-top: 150px;
+    }
+    
+    .article-projets{
+        display: flex;
+        justify-content: space-between;
+        height: 502px;
+    }
+    
+    .text-btn-projets{
+        color: white;
+    }
+    
+    .card-body{
+        background-color: #e2e2e2;
+    }
+    
+    .a-git{
+        color: black;
+    }
+    
+    .div-card{
+        width: 18rem;
+        margin-top: 20px;
+        margin: auto;
+    }
+
+/*-------------------------------------------------CV--------------------------------------------------*/
+    .main-cv{
+       padding-top: 60px;
+       padding-left: 130px;
+       padding-right: 130px;
+       padding-bottom: 60px;
+    }
+    
+    .text-nom{
+        font-family: king;
+        font-size: 1.7rem;
+    }
+    
+    .text-nom2{
+        font-family: king;
+        font-size: 1.7rem;
+    }
+    
+    .h1-cv{
+        margin-left: 90px;
+        color: black;
+        font-size: 5rem;
+        font-family: king;
+        letter-spacing: 3px;
+    }
+    
+    .span-orange{
+        color: #ea9215;
+    }
+    
+    .article-profil{
+        margin-top: 80px;
+        margin-left: 90px;
+    }
+    
+    p{
+        font-size: 1.3rem;
+        font-family: rosa;
+    }
+    
+    .section-cv{
+        background-color: #e2e2e2;
+    }
+
+/*-------------------------------------------------BOUTON-CV--------------------------------------------------*/
+    .div-btn{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .btn{
+        background-color: #212529;
+        transition: background 1s;
+        border-radius: 5px;
+    }
+    
+    .btn b{
+        font-family: rosa;
+        font-size: 1.5rem;
+        color: white;
+    }
+    
+    .btn:hover{
+        background-color: #ddad1c;
+    }
+
+/*-------------------------------------------------CONTACT--------------------------------------------------*/
+    .main-contact{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 120px;
+    }
+    
+    .article-map{
+        padding: 40px;
+    }
+    
+    .article-map iframe{
+        border: solid 1px black !important;
+    }
+    
+    .article-contact{
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+    }
+    
+    form{
+        border: solid 1px black;
+        background-color: rgb(105, 105, 105);
+        width: 600px;
+        height: 450px;
+    }
+    
+    .article-contact legend{
+        color: black;
+        font-family: rosa;
+        text-shadow: 1px 1px 3px white;
+    }
+    
+    .article-contact fieldset{
+        color: black;
+        font-family: rosa;
+        text-shadow: 1px 1px 3px white;
+    }
+    
+    .article-contact fieldset{
+        border: 1px black;
+        text-align: center;
+    }
+    
+    .article-contact input{
+        width: 95%;
+        border: solid 1px black;
+        border-radius: 5px;
+    }
+    
+    textarea{
+        width: 95%;
+        height: 230px;
+        border: solid 1px black;
+        border-radius: 5px;
+    }
+    
+    .article-contact button{
+        color: white;
+        background-color: #212529;
+        text-align: center;
+        border: solid 1px black;
+        border-radius: 10px;
+        margin-top: 3px;
+    }
+
+/*-------------------------------------------------FOOTER--------------------------------------------------*/
+    footer{
+        font-family: pix;
+        text-align: center;
+        background-color: #212529;
+        margin-top: 35px;
+        height: 50px;
+    }
+    
+    h2{
+        color: white;
+    }
+    
+    .footer-index{
+        margin-top: 151px;
+    }
+    
+    .footer-projets{
+        margin-top: 149px; 
+    }
+    
+    .footer-cv{
+        margin-top: 0px;
+    }
+    
+    .footer-contact{
+        margin-top: 145px;
+    }
+
+/*-------------------------------------------------BROUILLON--------------------------------------------------*/
+
