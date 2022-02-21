@@ -1,5 +1,5 @@
 
-//---------------------------------------------------------------------Définiton des variables globales---------------------------------------------------------------//
+//------------------------------------------------------Définiton des variables globales-------------------------------------------------------//
 var board = document.getElementById('board');
 var new_game_button = document.getElementById('new_game_button');
 var win = false;
@@ -10,13 +10,11 @@ var win = false;
 new_game_button.addEventListener('click', (e) => {
     new_game();
 });
-
+// tableau de jeux avec fonction d'ajout de case pour le tableau
 var new_game = () => {
     let nb_row = document.getElementById('nb_row').value;
     let nb_col = document.getElementById('nb_col').value;
-
     let size = nb_row * nb_col;
-
     if (size % 2 !== 0) {
         alert('Le nombre de cases n\'est pas paire !');
     }
@@ -24,7 +22,7 @@ var new_game = () => {
         make_board(nb_row, nb_col);
     }
 };
-
+// a demander
 var range = (start, end) => {
     var ary = [];
     for (let i = start; i <= end; i++) {
@@ -52,7 +50,6 @@ var make_board = (nb_row, nb_col) => {
 
             //--------------------------------------------------------Construction des éléments de la grille----------------------------------------------------------//
 
-
             const td_element = document.createElement('td');
             td_element.className = 'cell';
             const cell_number = cells[index];
@@ -67,17 +64,14 @@ var make_board = (nb_row, nb_col) => {
             imgDos_element.src = 'assets/imgdos/cartedos.jpg';
             td_element.appendChild(imgDos_element);
 
-
             //---------------------------------------------------------Td_element.innerHTML = cell_number;------------------------------------------------------------//
-
 
             td_element.setAttribute('data-cell-number', cell_number); //,cell_number2
 
-            //On ajoute un event listener sur chaque cellule pour lancer un tour de jeu à chaque click du joueur
+            //On ajoute un eventListener sur chaque cellule pour lancer un tour de jeu à chaque click du joueur
             td_element.addEventListener('click', (e) => {
                 let cn = e.currentTarget.getAttribute('data-cell-number'); //, 'data-cell-number2'
                 console.log(cn);
-                
             });
 
             //Initialisation du tableau des valeurs de "coups joués"
@@ -87,45 +81,3 @@ var make_board = (nb_row, nb_col) => {
         board.appendChild(tr_element,);
     }
 };
-
-//----------------------------------------------------------- SUITE TESTE --------------------------------------------
-
-//function addEventListener(img_element, imgDos_element)
-
-//if(cell_number) si tu clik sur cell_number 
-
-/*function addFlipped(target) {
-    if (!target.classList.contains('flipped')) {
-        target.classList.add('flipped');
-        board.push(target);
-        if (board.length > 1) {
-            removeFlipped();
-        }
-    }
-
-
-function removeFlipped() {
-    if (img_element.length > 2) {
-        img_element[0].classList.remove('flipped');
-        img_element.shift();
-    }
-    checkResult();
-}
-
-              
-
-//   voir idee monté le niveau de dificulté
-
-
-
-function checkResult() {
-    if (img_element === img_element) {
-        console.log ("une paire")
-
-        }
-    }
-
-Timer
-setInterval(function() {
-    seconds++;
-}, 1000);*/
