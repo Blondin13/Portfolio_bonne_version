@@ -4,8 +4,6 @@
     .h1-cv{
         font-size: 4rem;
     }
-    
-   
 }
 
 /*----------------------------------------------------------1200PX---------------------------------------------------------------------*/
@@ -27,6 +25,10 @@
     
     .footer-index{
         margin-top: 120px;
+    }
+    
+    .img-contact{
+        width: 100%;
     }
 
     /*--------------------------------------CV----------------------------------------------*/
@@ -68,10 +70,6 @@
     
     .p-cv{
         font-size: 0.9rem;
-    }
-    
-    iframe{
-        margin-left: 130px;
     }
     
     form{
@@ -142,6 +140,10 @@
         margin-top: 950px;
     }
     
+    .footer-contact{
+        margin-top: 200px;
+    }
+    
     /*--------------------------------------CV--------------------------------------------*/
     .h1-cv{
         font-size: 3rem;
@@ -156,15 +158,23 @@
     }
     
     .footer-projets{
-        margin-top: 951px;
+        margin-top: 1410px;
     }
     
     .footer-cv{
         margin-top: 1px;
     }
     
+    .img-contact{
+        margin-top: 50px;
+    }
+    
+    .article-contact form{
+        margin-top: 10px;
+    }
+    
     .footer-contact{
-        margin-top: 80px;
+        margin-top: 240px;
     }
 }
 
@@ -179,11 +189,7 @@
     .footer-index{
         margin-top: 90px;
     }
-    
-    iframe{
-        margin-left: 28px;
-        width: 570px;
-    }    
+       
     form{
         margin-left: 10px;
         width: 570px;
@@ -296,9 +302,18 @@
         font-size: 0.6rem;
     }
     
-    iframe{
-        width: 305px;
+    .img-contact{
+        margin-top: 0px;
     }
+    
+    .article-contact form{
+        margin-top: 0px;
+    }
+    
+    .footer-contact{
+        margin-top: 40px;
+    }
+    
 }
 
 /*------------------------------------------------------------395PX--------------------------------------------------------------------*/
