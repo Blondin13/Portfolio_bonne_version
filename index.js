@@ -3,8 +3,6 @@ const express = require("express"); //importe la librairie express
 const nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
 const Config = require("./Config.js");
-console.log(Config.mail);
-console.log(Config.mdpMail);
 let transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     auth: {
