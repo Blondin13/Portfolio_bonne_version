@@ -2,13 +2,14 @@ const { resolve } = require("path");
 const express = require("express"); //importe la librairie express
 const nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
+const Config = require("./Config.js");
 
 let transporter = nodemailer.createTransport({
     service: "gmail",
     host: "smtp.gmail.com",
     auth: {
-        user: "buirechristophe@gmail.com",
-        pass: "keliajtmalafolie13.",
+        user: Config.mail,
+        pass: Config.mdpMail,
     },
 });
 
@@ -37,7 +38,6 @@ app.post("/contact", async (req, res) => {
             res.render("contact.html.twig", { message });
         }
     });
-    
 });
 
 app.get("/contact", async (req, res) => {
