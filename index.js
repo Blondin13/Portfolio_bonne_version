@@ -3,11 +3,12 @@ const express = require("express"); //importe la librairie express
 const nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
 const Config = require("./Config.js");
-
+console.log(Config.mail);
+console.log(Config.mdpMail);
 let transporter = nodemailer.createTransport({
-    service: "gmail",
     host: "smtp.gmail.com",
     auth: {
+        type: "login", // default
         user: Config.mail,
         pass: Config.mdpMail,
     },
@@ -32,6 +33,7 @@ app.post("/contact", async (req, res) => {
     transporter.sendMail(mailOptions, (err) => {
         if (err) {
             message = "Votre message n'est pas transmis !";
+            console.log(err);
             res.render("contact.html.twig", { message });
         } else {
             message = "Votre message est transmis !";
