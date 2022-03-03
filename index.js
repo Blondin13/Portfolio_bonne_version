@@ -1,7 +1,7 @@
 const { resolve } = require("path");
 const express = require("express"); //importe la librairie express
-const nodemailer = require("nodemailer");
-const bodyParser = require("body-parser");
+const nodemailer = require("nodemailer"); //importe la librairie nodemailer
+const bodyParser = require("body-parser"); //importe la librairie body-parser
 const Config = require("./Config.js");
 let transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
@@ -13,10 +13,10 @@ let transporter = nodemailer.createTransport({
 });
 
 const app = express(); // Créer l'application express
-app.use(express.static(resolve(__dirname, "public")));
+app.use(express.static(resolve(__dirname, "public"))); // demander views ?
 app.use(bodyParser.urlencoded({ extended: true }));
-app.listen(8000, () => {
-    console.log("Server a démarer dans http://localhost:8000");
+app.listen(8000, () => { // Ecoute sur le port 8000
+    console.log("Server a démarer dans http://localhost:8000"); // Renvoi le message Server a démarer dans http://localhost:8000
 });
 
 app.post("/contact", async (req, res) => {
@@ -24,7 +24,7 @@ app.post("/contact", async (req, res) => {
     let mailOptions = {
         from: req.body.email,
         to: "buirechristophe@gmail.com",
-        subject: `demande de contact de ${req.body.fisrtname}`,
+        subject: `demande de contact de ${req.body.fisrtname} ${req.body.email}`,
         text: req.body.message,
     };
 
