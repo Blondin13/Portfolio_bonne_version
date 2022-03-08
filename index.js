@@ -2,13 +2,13 @@ const { resolve } = require("path");
 const express = require("express"); //importe la librairie express
 const nodemailer = require("nodemailer"); //importe la librairie nodemailer
 const bodyParser = require("body-parser"); //importe la librairie body-parser
-const Config = require("./Config.js");
+const Config = require("./Config.js"); //importe mon fichier Config.js
 let transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     auth: {
         type: "login", // default
-        user: Config.mail,
-        pass: Config.mdpMail,
+        user: Config.mail,     //| Je recupére le Config.mail de mon fichier Config.js
+        pass: Config.mdpMail,  //| Je recupére le Config.mdpMail de mon fichier Config.js
     },
 });
 
